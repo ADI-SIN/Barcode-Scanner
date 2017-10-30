@@ -60,7 +60,7 @@ private Button scan;
 
         if(result != null){
             if(result.getContents()==null){
-                Toast.makeText(this,"Scan is cancelled",Toast.LENGTH_SHORT).show();
+                Toast.makeText(this,"Scan is cancelled! Try again",Toast.LENGTH_SHORT).show();
             }
             else{
                 Toast.makeText(this,result.getContents(),Toast.LENGTH_SHORT).show();
